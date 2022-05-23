@@ -1,6 +1,6 @@
 img{
-    height:200px;
-    width:140px;
+    height:150px;
+    width:150px;
     border-radius: 5%;
     border:solid;
     border-color:white;
@@ -14,11 +14,11 @@ body{
     background-image: url("https://i.pinimg.com/originals/03/c8/9d/03c89dbf0325753a847ed914f490ff6d.jpg");
     background-repeat: none;
     background-size: cover;
-    background:linear-gradient(to right, rgb(204, 43, 94), rgb(117, 58, 136));
+    background-attachment: fixed;
 }
 input{
     height:30px;
-    width:150px;
+    width:200px;
     border:solid;
     font-weight:bold;
 }
@@ -28,7 +28,7 @@ section{
 
 button{
     background-color: orange;
-    height:40px;
+    height:35px;
     font-size:15px;
     border:solid;
     font-weight: bold;
@@ -37,18 +37,17 @@ button{
 button:hover{
     transform:scale(0.9);
 }
-span{
-    border:ridge;
-    padding:20px;
-    width:300px;
-    border-color:black;
-    border-width:5px;
-    
-}
+
 section{
     margin-top:50px;
+    padding:10px;
+    
+
 }
 
 img:hover{
     transform:scale(0.9);
+}
+H1{
+    font-size:50px
 }
